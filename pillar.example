@@ -16,3 +16,11 @@ powerdns:
     gmysql-user: pdns
     gmysql-password: mys3cr3tdbp4ssw0rd
     gmysql-dnssec: 'yes'
+
+    # postgres
+    launch: gpgsql
+    gpgsql-host: localhost
+    gpgsql-port: 3306
+    gpgsql-user: pdns
+    gpgsql-password: mys3cr3tdbp4ssw0rd
+    gpgsql-dnssec: 'yes'

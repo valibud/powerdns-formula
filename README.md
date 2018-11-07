@@ -28,6 +28,11 @@ Installs PowerDNS authorative server from official repostiory.
 
 Installs PowerDNS MySQL backend package.
 
+`powerdns.backend-pgsql`
+------------------------
+
+Installs PowerDNS PostgreSQL backend package.
+
 `powerdns.backend-sqlite3`
 --------------------------
 
@@ -51,4 +56,3 @@ pdns.url: "http://127.0.0.1:8081"
 pdns.server_id: "localhost"
 pdns.api_key: "deadbeef"
 ```
-
